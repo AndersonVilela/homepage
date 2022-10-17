@@ -59,6 +59,8 @@
   letter-spacing: 0.1em;
 
   color: #FFFFFF;
+
+  text-decoration: none;
 }
 
 .navLink {
@@ -71,6 +73,8 @@
   letter-spacing: 0.1em;
 
   color: #FFFFFF;
+
+  text-decoration: none;
 }
 
 .gitLink {
@@ -88,3 +92,6 @@
 }
 
 
+.pro {
+  background-color: transparent;
+}

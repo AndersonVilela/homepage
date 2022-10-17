@@ -1,33 +1,39 @@
 import GitHub from '../../assets/GitHub.png';
-import Summer from '../../assets/Summer.png';
 import Style from './styles.module.css';
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
-
-
-
 
 
   return (
     <div className={Style.container}>
       <ul className={Style.list}>
         <li className={`${Style.links} ${Style.logoLink} `}>
-          <a className={`${Style.restLink}`}>
+          <Link to="/" className={`${Style.restLink}`}>
             <span className={Style.linkLogo}>A</span>nderson Vilela
-          </a>
+          </Link>
         </li>
         <li className={Style.links}>
-          <a className={Style.navLink}>
+          <Link
+            to="/Projects"
+            className={`${Style.navLink} ${Style.pro}`}
+          >
             Projects
-          </a>
+          </Link>
         </li>
         <li className={Style.links}>
-          <a className={Style.navLink}>
+          <Link to="/Contact" className={Style.navLink}>
             Contact
-          </a>
+          </Link>
         </li>
         <li className={Style.links}>
-          <a className={`${Style.navLink} ${Style.gitLink}`}>
+          <Link to="/Blog" className={Style.navLink}>
+            Blog
+          </Link>
+        </li>
+
+        <li className={Style.links}>
+          <a to="/Source" className={`${Style.navLink} ${Style.gitLink}`}>
             <img src={GitHub} className={Style.gitImage} />Source
           </a>
         </li>
