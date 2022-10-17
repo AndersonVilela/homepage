@@ -14,7 +14,7 @@ export default function Contact() {
         <p className={Style.content}>I am interested in freelance opportunities and also web internship opportunities</p>
         <div>
           <form className={Style.form} action='https://api.staticforms.xyz/submit' method='POST'>
-            <input type="hidden" name="redirectTo" value="https://homepage-delta-eight.vercel.app/Contact" />
+            <input type="hidden" name="redirectTo" value="https://homepage-delta-eight.vercel.app/" />
             <input type="hidden" name="accessKey" value="988bb31f-c6be-46c6-bb55-a9259e9c3786" />
             <div className={Style.junt}>
               <input className={Style.name} placeholder="Name" type="text" name="name" />
