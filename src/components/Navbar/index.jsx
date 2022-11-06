@@ -27,13 +27,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li className={Style.links}>
-          <Link to="/Blog" className={Style.navLink}>
-            Blog
-          </Link>
-        </li>
-
-        <li className={Style.links}>
-          <a to="/Source" className={`${Style.navLink} ${Style.gitLink}`}>
+          <a href="https://github.com/AndersonVilela/homepage" className={`${Style.navLink} ${Style.gitLink}`}>
             <img src={GitHub} className={Style.gitImage} />Source
           </a>
         </li>

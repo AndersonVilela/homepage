@@ -28,7 +28,14 @@ export default function Project() {
       id: 4,
       name: "Crypto-App",
       image: "https://github.com/AndersonVilela/crypto-App/blob/main/2022-09-14_12-17.png?raw=true",
-      description: "ma aplicação em react utilizando uma api de crypto moedas"
+      description: "uma aplicação em react utilizando uma api de crypto moedas"
+    },
+
+    {
+    id: 4,
+    name: "Move | Doro",
+    image: "https://github.com/AndersonVilela/move-doro/blob/main/public/2022-11-06%2011.57.11%20localhost%2022dc6cf88090.png?raw=true",
+    description: "uma aplicação baseada no método pomodoro gameficado, com algumas tarefas a comprir visão a saúde do dev, feito em next com typescript e css modules."
     }
   ]
 
